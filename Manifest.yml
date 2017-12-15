@@ -1,0 +1,8 @@
+---
+applications:
+- name: sample-nodejs-app
+  memory: 128M
+  instances: 1
+  buildpack: sdk-for-nodejs
+  domain: mybluemix.net
+  command: npm start
